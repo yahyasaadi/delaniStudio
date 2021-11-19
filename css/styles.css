@@ -14,3 +14,12 @@ div#welcome {
 	
 }
 
+div#welcome h1 {
+	text-align: center;
+	color: white;
+}
+
+div#welcome p {
+	text-align: center;
+	color: white;
+}
