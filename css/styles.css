@@ -45,3 +45,20 @@ div#services h3 {
 	text-align: center;
 	color: white;
 }
+
+#what-we-do h3 {
+	text-align: center;
+}
+
+
+#what-we-do img {
+	margin: 0px 50px;
+}
+
+#design {
+	margin: 0px 50px;
+}
+
+#dev {
+	margin: 0px 20px;
+}
