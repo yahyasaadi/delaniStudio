@@ -27,3 +27,21 @@ div#welcome p {
 #about-us {
 	text-align: center;
 }
+
+div#services {
+	background-image: url('../assets/backgrounds/s_image.jpg');
+	padding: 100px 100px;
+	margin-bottom: 20px;
+}
+
+
+div#services h3 {
+	text-align: center;
+	color: white;
+}
+
+
+#services p {
+	text-align: center;
+	color: white;
+}
