@@ -76,3 +76,23 @@ div#services h3 {
 .row {
 	margin: 15px;
 }
+
+#contact h3 {
+	text-align: center;
+	color: white;
+}
+
+
+div#contact {
+	background-image: url('../assets/backgrounds/c_image.jpg');
+	padding: 100px 100px;
+	margin-bottom: 20px;
+}
+
+#clearRow {
+	opacity: 0.3;
+}
+
+#messageArea {
+	margin: 0 20px;
+}
