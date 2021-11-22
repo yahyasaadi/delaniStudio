@@ -113,6 +113,11 @@ div#contact {
 	margin: 0 20px;
 }
 
+#btnSubmit {
+	margin: 0 20px;
+}
+
+/* Next start here */
 #socials {
 	padding: 0px 20px;
 	margin-top: 10px;
@@ -128,4 +133,11 @@ div#contact {
 #year {
 	text-align: center;
 	margin-top: 0px;
+}
+
+
+/* HOVER EFFECT */
+
+.appear {
+	display: none;
 }
