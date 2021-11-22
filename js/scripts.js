@@ -25,5 +25,27 @@ $().ready(function(){
         alert(name + " we have received your message. Thank you for reaching out to us.");
     });
 
-    
+    /*
+    // Tyring hover effect
+    // Rpeat this function for the rest of the projects
+    $("#workFour").hover(function(){
+        // $('#workFourName').toggle();
+        $(this).animate({opacity:.1});
+        // $('.workThreeName').removeClass('appear');
+    }, function(){
+        $(this).animate({opacity: 1});
+        // $('.workThreeName').addClass('appear');
+    });
+
+    */
+
+
+    // function to add animation to portfolio div
+    $("#portfolio").each(function(){
+        $("img").hover(function(){
+            $(this).animate({opacity: .1});
+        }, function(){
+            $(this).animate({opacity: 1});
+        });
+    });
 });
