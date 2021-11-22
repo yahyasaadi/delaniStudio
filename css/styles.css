@@ -1,6 +1,8 @@
 body {
 	background: #f8f6f6;
+	font-family: 'PT Serif', serif;
 }
+
 div#welcome {
 	background-image: url('../assets/backgrounds/h_img.jpg');
 	padding: 205px 300px;
