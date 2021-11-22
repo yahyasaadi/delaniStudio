@@ -1,3 +1,10 @@
+function clearFields(){
+    $("input#name").val("");
+    $("input#email").val("");
+    $("#message").val("");
+}
+
+
 $().ready(function(){
     // the desing paragraph
     $("#designImg").click(function(){
@@ -23,6 +30,7 @@ $().ready(function(){
         e.preventDefault();
         var name = $nameInput.val();
         alert(name + " we have received your message. Thank you for reaching out to us.");
+        clearFields();
     });
 
     /*
