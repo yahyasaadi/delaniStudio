@@ -59,6 +59,22 @@ div#services h3 {
 	margin: 0px 50px;
 }
 
+
+/* Hide design paragraph */
+#pDesign {
+	display: none;
+}	
+
+
+#pDev {
+	display: none;
+}
+
+#pProduct {
+	display: none;
+}
+
+
 #dev {
 	margin: 0px 20px;
 }
